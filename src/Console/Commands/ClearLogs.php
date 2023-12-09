@@ -9,7 +9,6 @@ use Symfony\Component\Console\Output\OutputInterface;
 class ClearLogs extends Command
 {
     protected $signature = 'logs:clear
-                            {--daily : Clear daily logs}
                             {--dry-run : Simulate the command without clearing any files}';
 
     protected $description = 'Clear the application logs';
@@ -47,6 +46,6 @@ class ClearLogs extends Command
             File::delete($file);
         }
 
-        $this->info($this->option('daily') ? 'Daily logs cleared successfully!' : 'Logs cleared successfully!');
+        $this->info('Logs cleared successfully!');
     }
 }
