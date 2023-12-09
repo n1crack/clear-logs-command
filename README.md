@@ -1,6 +1,6 @@
 # Clear Logs Command for Laravel
 
-A Laravel Artisan command to clear application logs with additional options.
+A Laravel Artisan command to clear application logs with additional options. The logs cleared by this command are located in the logs directory within the Laravel storage folder. It is a standard practice in Laravel to store logs in this location.
 
 ## Installation
 
