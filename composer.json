@@ -15,7 +15,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Ozdemir\\ClearLogsCommand\\CartServiceProvider"
+        "Ozdemir\\ClearLogsCommand\\ClearLogsCommandServiceProvider"
       ]
     }
   },
