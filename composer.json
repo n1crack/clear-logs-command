@@ -1,0 +1,22 @@
+{
+  "name": "ozdemir/clear-logs-command",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ozdemir\\ClearLogsCommand\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Yusuf Özdemir",
+      "email": "yusuf@ozdemir.be"
+    }
+  ],
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Ozdemir\\ClearLogsCommand\\CartServiceProvider"
+      ]
+    }
+  }
+}
