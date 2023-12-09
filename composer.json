@@ -18,5 +18,7 @@
         "Ozdemir\\ClearLogsCommand\\CartServiceProvider"
       ]
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
